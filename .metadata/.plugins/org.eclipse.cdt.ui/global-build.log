@@ -1,54 +1,35 @@
-16:10:25 **** Incremental Build of configuration Debug for project BASE-Lifter ****
+20:48:46 **** Rebuild of configuration Debug for project BASE-Lifter ****
 Info: Internal Builder is used for build
 arm-frc-linux-gnueabi-g++ -std=c++1y "-IC:\\Users\\Administrator/wpilib/cpp/current/include" "-IC:\\Users\\Administrator\\Desktop\\GIT\\2015-ForkliftBot\\BASE-Lifter\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Robot.o" "..\\src\\Robot.cpp" 
 arm-frc-linux-gnueabi-g++ "-LC:\\Users\\Administrator/wpilib/cpp/current/lib" -Wl,-rpath,/opt/GenICam_v2_3/bin/Linux_armv7-a -o FRCUserProgram "src\\Robot.o" -lwpi 
 c:/frc/bin/../lib/gcc/arm-frc-linux-gnueabi/4.9.1/../../../../arm-frc-linux-gnueabi/bin/ld.exe: warning: libstdc++.so.6, needed by C:\Users\Administrator/wpilib/cpp/current/lib\libFRC_NetworkCommunication.so.1.5.0, not found (try using -rpath or -rpath-link)
-16:10:41 **** Incremental Build of configuration Debug for project 2015 ForkliftBot ****
-Info: Internal Builder is used for build
-arm-frc-linux-gnueabi-g++ -std=c++1y "-IC:\\Users\\Administrator/wpilib/cpp/current/include" "-I\\$\\{workspace_loc:/2015 ForkliftBot/src}" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Robot.o" "..\\src\\Robot.cpp" 
-In file included from ..\src\Robot.h:28:0,
-                 from ..\src\Robot.cpp:12:
-..\src\OI.h:20:12: error: expected ';' at end of member declaration
-  Joystick* customOIPanel-1;
-            ^
-..\src\OI.h:20:25: error: expected unqualified-id before '-' token
-  Joystick* customOIPanel-1;
-                         ^
-..\src\OI.h:21:18: error: expected ';' at end of member declaration
-  JoystickButton* oI-Elevator-TopOf1;
-                  ^
-..\src\OI.h:21:20: error: expected unqualified-id before '-' token
-  JoystickButton* oI-Elevator-TopOf1;
-                    ^
-..\src\OI.h:22:18: error: expected ';' at end of member declaration
-  JoystickButton* oI-ElevatorFloor;
-                  ^
-..\src\OI.h:22:18: error: redeclaration of 'JoystickButton* OI::oI'
-..\src\OI.h:21:18: note: previous declaration 'JoystickButton* OI::oI'
-  JoystickButton* oI-Elevator-TopOf1;
-                  ^
-..\src\OI.h:22:20: error: expected unqualified-id before '-' token
-  JoystickButton* oI-ElevatorFloor;
-                    ^
-..\src\OI.h:30:12: error: expected ';' at end of member declaration
-  Joystick* getCustomOIPanel-1();
-            ^
-..\src\OI.h:30:28: error: expected unqualified-id before '-' token
-  Joystick* getCustomOIPanel-1();
-                            ^
-Info: Nothing to build for 2370 - Elevator
-Info: Nothing to build for 2370 - ForkliftBot
-Info: Nothing to build for 2370 - V2
-Info: Nothing to build for BASE-Lifter
-16:10:43 **** Incremental Build of configuration Debug for project BASE-MecanumDrive ****
-Info: Internal Builder is used for build
-arm-frc-linux-gnueabi-g++ -std=c++1y "-IC:\\Users\\Administrator/wpilib/cpp/current/include" "-IC:\\Users\\Administrator\\Desktop\\GIT\\2015-ForkliftBot\\BASE-MecanumDrive\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Robot.o" "..\\src\\Robot.cpp" 
-arm-frc-linux-gnueabi-g++ "-LC:\\Users\\Administrator/wpilib/cpp/current/lib" -Wl,-rpath,/opt/GenICam_v2_3/bin/Linux_armv7-a -o FRCUserProgram "src\\Robot.o" -lwpi 
-c:/frc/bin/../lib/gcc/arm-frc-linux-gnueabi/4.9.1/../../../../arm-frc-linux-gnueabi/bin/ld.exe: warning: libstdc++.so.6, needed by C:\Users\Administrator/wpilib/cpp/current/lib\libFRC_NetworkCommunication.so.1.5.0, not found (try using -rpath or -rpath-link)
-16:10:46 **** Incremental Build of configuration Default for project RemoteSystemsTempFiles ****
-make all 
+20:50:02 **** Clean-only build of configuration Debug for project 2370 - V2 ****
+rm -rf src/GrabberComponent.d src/LiftComponent.o src/Robot.d src/DriveComponent.d src/LiftComponent.d FRCUserProgram src/DriveComponent.o src/GrabberComponent.o src/Robot.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\eclipse;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\frc\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\WPIJavaCV\OpenCV_2.2.0\bin]
+
+20:50:02 **** Clean-only build of configuration Debug for project 2370 - V2 ****
+20:50:02 **** Clean-only build of configuration Debug for project BASE-Lifter ****
+rm -rf FRCUserProgram src/Robot.d src/Robot.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\eclipse;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\frc\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\WPIJavaCV\OpenCV_2.2.0\bin]
+
+20:50:02 **** Clean-only build of configuration Debug for project BASE-Lifter ****
+20:50:02 **** Clean-only build of configuration Debug for project BASE-MecanumDrive ****
+rm -rf FRCUserProgram src/Robot.o src/Robot.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\eclipse;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\frc\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\WPIJavaCV\OpenCV_2.2.0\bin]
+
+20:50:02 **** Clean-only build of configuration Debug for project BASE-MecanumDrive ****
+20:50:02 **** Clean-only build of configuration Default for project RemoteSystemsTempFiles ****
+make clean 
 Cannot run program "make": Launching failed
 
 Error: Program "make" not found in PATH
 PATH=[C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\frc\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\WPIJavaCV\OpenCV_2.2.0\bin;C:\Program Files\eclipse;]
-Info: Nothing to build for VisionTesting
